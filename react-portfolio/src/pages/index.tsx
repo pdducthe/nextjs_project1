@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           {/* carousel items */}
           <div className='carousel-wrapper'>
-            <Carousel slide interval={400000} activeIndex={index} onSelect={handleSelect} keyboard>
+            <Carousel touch slide interval={4000} activeIndex={index} onSelect={handleSelect} keyboard controls>
               <Carousel.Item >
                 <img src="/images/flower1.jpg" className='img-responsive' alt='First Slide' />
                 <Carousel.Caption>
